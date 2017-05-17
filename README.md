@@ -3,17 +3,20 @@ Get you some git branch without git!
 
 Linux/Unix/MacOS only.
 
-
+Branch will only print the shortname of the current branch you are on.
 # Usage comparison
-
+```
 $ git status
 
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 
-```$ branch
-master
+git branch
+* master
+
+$ branch
+master 
 ```
 # Branch use case
 ```
