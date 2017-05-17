@@ -1,6 +1,8 @@
 # branch
 Get you some git branch without git!
 
+Having git installed is not a requirement, but I'm not sure what you would use this for without it.
+
 Linux/Unix/MacOS only.
 
 Branch will only print the shortname of the current branch you are on.
