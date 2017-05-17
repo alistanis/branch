@@ -12,8 +12,12 @@ On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 
-$ branch
+```$ branch
 master
-
+```
 # Branch use case
+```
 $ git push origin $( branch )
+```
+
+
