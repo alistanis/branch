@@ -4,11 +4,19 @@ import (
 	"fmt"
 	"os"
 
+	"strings"
+
 	"github.com/alistanis/branch"
 )
 
 func main() {
-	r, err := branch.Open(".")
+	path, err := os.Getwd()
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(-1)
+	}
+	pathSplit := strings.Split(path, string(os.PathSeparator))
+	r, err := branch.Open(pathSplit)
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(-1)
